@@ -1,0 +1,26 @@
+
+ ☐ public function create in Posts.php
+ ☐ create create view with title
+ ☐ add $route['posts/create'] = 'posts/create'; to route.php on top
+ ☐ bootstrap form to create.php
+ ☐ add form to autoload.php helper form_validation to libraries
+ ☐ <?php echo validation_errors(); ?>,<?php echo form_open('posts/create'); ?> to form tag in create.php
+ ☐ Posts.php validation and if else statements in create function
+ ☐ add create_post function in Post_model.php with slug,array and return $this->db->insert('posts',$data);
+ ☐ add $this->db->order_by('id','DESC'); to get_posts in Post_model
+ --- ✄ -------------------------- ✄ -----------------------
+ ☐ <?php echo form_open('/posts/delete/'.$post['id']); ?> and input for delete in view.php
+ ☐ add delete function to Posts.php with code
+ ☐ add delete_post function to Post_model.php with code
+ --- ✄ -------------------------- ✄ -----------------------
+ ☐ add edit button anchor link in view.php
+ ☐ add edit function in Posts.php
+ ☐ create edit.php in views/posts , copy create.php and add echo $post[title,body] in input
+ ☐ edit function in Posts.php with code
+ ☐ form_open('posts/update') and add hidden input field with echo $post[id]
+ ☐ add $route['posts/update'] = 'posts/update'; to routes.php
+ ☐ add update function to Posts.php with code
+ ☐ add update_post in Post_model with code array,slug whereclause and insert
+ ☐ add create post to navbar
+ ☐ add ckeditor cdn to header add script to footer and 
+ ☐ id="editor1" to textarea of create.php and edit.php

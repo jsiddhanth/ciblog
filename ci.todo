@@ -1,0 +1,31 @@
+
+ ☐ add cifolder to htdocs
+ ☐ change $config['base_url'] =  to 'http://localhost/blog/'; to config.php
+ ☐ remove 'index.php' from $config['index_page']
+ ☐ create .htaccess file in root with code
+ ☐ create templates/header and footer.php in views with basic html head body
+ ☐ create about.php and home.php in pages/view
+ ☐ create Pages.php in controller with view function code
+ ☐ add to routes.php $route['(:any)'] = 'pages/view/$1';
+ ☐ change $route['default_controller'] = 'pages/view';
+ ☐ add bootstrap cdn to header
+ ☐ add boostrap navbar in header
+ ☐ <?php echo base_url(); ?> to navlink
+ ☐ config/autoload.php add url to to helper
+ --- ✄ -------------------------- ✄ -----------------------
+ ☐ Posts.php controller 
+ ☐ $route['posts'] = 'posts/index'; to config/route.php
+ ☐ make db and posts table
+ ☐ add model to autoload.php not capital
+ ☐ add database.php in config
+ ☐ add data post one two 
+ ☐ add posts link in navbar with blog
+ --- ✄ -------------------------- ✄ -----------------------
+ ☐ create assets/css/style.css with code
+ ☐ in routes add $route['(:any)'] = 'pages/view/$1';
+ ☐ add public function index and view in post controller with code
+ ☐ Posts model code get_posts() 
+ ☐ posts folder in views with index.php and echo title
+ ☐ index.php in view/posts code class="post-date" to small
+ ☐ index.php add site_url link with btn btn-secondary class
+ ☐ create view.php add show body and small created_at

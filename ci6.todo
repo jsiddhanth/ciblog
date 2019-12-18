@@ -1,0 +1,13 @@
+ 
+ ☐ create users table and add user_id column in posts
+ ☐ create Users.php controller with register function
+ ☐ create register view in users folder with from 
+ ☐ create User_model.php with code for register
+ ☐ add check_username_exists in User_model Model and for email as well
+ ☐ add check_username_exists in Users controller and for email as well
+ ☐ add register to navbar
+ --- ✄ -------------------------- ✄ -----------------------
+ ☐ add session to autoload.php library and add user_model 
+ ☐ set message in update create delete of Posts.php register of Users.php and create of Categories.php
+ ☐ add below container in header.php flash messages for all above flash
+ ☐ add callback_check_username_exists for username and email in validation in Users controller

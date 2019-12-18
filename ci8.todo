@@ -1,0 +1,18 @@
+
+ ☐ add pagintion to autoload.php library
+ ☐ add pagination code in index.php and $offset in function index($offset = 0) in Posts.php
+ ☐ add (FALSE,$config['per_page'],$offset) in get_posts of Posts.php
+ ☐ add get_posts($slug = FALSE,$limit = FALSE,$offset = FALSE) and if($limit) in Post_model.php
+ ☐ $config['attributes'] = array('class' => 'pagination-link');
+ ☐ $route['posts/index'] = 'posts/index'; in routes for pagination arrows
+ ☐ <?php echo $this->pagination->create_links(); ?> in posts/index.php  at the end
+ ☐ add div pagination-links class for above 
+ ☐ add .pagination-links .pagination-links strong a.pagination-link code to style.css
+ --- ✄ -------------------------- ✄ -------------------------- ✄ -----------------------
+ ☐ add user_id  column in categories table
+ ☐ <?php if($this->session->userdata('user_id') == $category['user_id']): ?> in index view of category
+ ☐ add form under if() with [x] button
+ ☐ add cat-delete  to style.css
+ ☐ add delete function to Categories.php and add flash message to header
+ ☐ add delete_category function to Category_model.php
+ ☐ add 'user_id' => $this->session->userdata('user_id') create_category  in Category_model.php

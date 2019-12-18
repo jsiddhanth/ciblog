@@ -1,0 +1,15 @@
+ 
+ ☐ create login.php view in users with form in card
+ ☐ login function in Users controller with code
+ ☐ login function in User_model in model with code
+ ☐ header add flash messsage for login_failed logged_in
+ ☐ add logout function in Users.php with code
+ ☐ add user_loggedout to header flash message
+ ☐ add logout to navbar
+ ☐ <?php if(!$this->session->userdata('logged_in')): ?> for login logout 
+ ☐ add if(!$this->session->userdata('logged_in')) in Posts.php create update edit delete 
+ ☐ add if(!$this->session->userdata('logged_in')) in Categories.php create
+ ☐ add in Post_model.php create_post 'user_id' => session('user_id')
+ ☐ put edit,delete btn in view <?php if($this->session->userdata('user_id') == $post['user_id']): ?>
+ ☐ add session->userdata('user_id') != $this->post_model->get_posts($slug)['user_id']) Posts.php edit
+ ☐ add username in navbar with session inside span navbat-text

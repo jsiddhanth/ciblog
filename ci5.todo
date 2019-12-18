@@ -1,0 +1,8 @@
+ ☐ create comment table in database
+ ☐ add comment_model to autoload.php
+ ☐ add comment form in view.php in posts
+ ☐ create Comments.php in controller with code
+ ☐ create Comment_model.php in model  with code
+ ☐ add $post_id =,$data['comments'] to view in Posts.php controller
+ ☐ add get_comments function in Comment_model.php
+ ☐ add if,foreach and php echo for comments in card-footer view.php of posts

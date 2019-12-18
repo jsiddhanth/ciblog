@@ -1,0 +1,16 @@
+
+ ☐ make Category.php controller with create function code with validation
+ ☐ make categories/create.php view with form code
+ ☐ add to routes
+ ☐ category_model add to autoload.php
+ ☐ make Category_model.php model with code for create_categories
+ ☐ $route['categories'] = 'categories/index'; to routes
+ ☐ add create category and categories to navbar
+ ☐ create index function in catergory controller with code
+ ☐ add get_categories function to Category_model with code
+ ☐ create index.php view in categories with echo php of category  ul li list
+ ☐ $route['categories/posts/(:any)'] = 'categories/posts/$1'; to route.php
+ ☐ add function get_category to Category_model with code
+ ☐ add function posts to Categories.php controller with code 
+ ☐ add get_posts_by_category  Post_model
+ --- ✄ -------------------------- ✄ -----------------------

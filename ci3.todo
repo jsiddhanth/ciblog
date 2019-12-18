@@ -1,0 +1,23 @@
+
+ ☐ add text to helper in autoload.php
+ ☐ add word_limiter to $post['body'] in index.php
+ ☐ add category_id in posts table and create category table in database
+ ☐ add $data['categories'] = $this->post_model->get_categories(); to create and edit in Posts.php
+ ☐ function get_categories() in Post_model
+ ☐ add select in create.php with foreach and echo body and id in value and option
+ ☐ 'category_id' => $this->input->post('category_id') to update and create in Post_model
+ ☐ $this->db->join('categories','categories.id = posts.category_id'); to get_posts in model
+ ☐ add echo name to index.php with strong tag
+ --- ✄ -------------------------- ✄ -----------------------
+ ☐ change to form_open_multipart in create.php
+ ☐ add bootstrap file upload in  create.php
+ ☐ in create func of Posts.php add '$post_image' to $this->post_model->create_post(); 
+ ☐ add config if else with userfile in else of create of controller
+ ☐ add  image to index.php in row col-md-3
+ ☐ add $post_image  to function create_post($post_image) in model
+ ☐ add 'category_id' => $this->input->post('category_id'),'post_image' => $post_image to create_post in model
+ ☐ add img to view.php
+ ☐ <?php if ($post['category_id'] == $category['id']){ echo "selected"; }?> add to option in edit for select
+
+
+            
